@@ -27,7 +27,7 @@ const Nav = () => {
         <BsFillMenuButtonWideFill className='text-2xl cursor-pointer' />
       </div>
 
-      <div className={`md:hidden flex flex-col absolute top-14 ${isMenuOpen ? 'left-0' : 'left-[-100%]'} transition-all bg-[#14181e] w-[100%] p-2`}>
+      <div className={`md:hidden flex flex-col absolute top-14 ${isMenuOpen ? 'left-0' : 'left-[-100%]'} pb-5 transition-all bg-[#14181e] w-[100%] p-2`}>
       <Link to='/profile' className='flex lg:hidden items-center justify-center gap-3 cursor-pointer ml-2 border p-2 rounded-full mb-5 max-w-[150px]'>
           <img className='h-[30px] rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7YPYthUncyoMocgioGoDRStcp9SUvL36I5A&usqp=CAU" alt="" />
           <strong>Allen Dodul</strong>
